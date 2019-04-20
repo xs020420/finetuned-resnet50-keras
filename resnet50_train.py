@@ -7,10 +7,10 @@ from keras.models import Model
 from keras.optimizers import Adam
 from keras.preprocessing import image
 
-
+#D:\ly\fashionDataset\FashionStyle14_v1\dataset
 DATA_DIR = 'data'
-TRAIN_DIR = os.path.join(DATA_DIR, 'train')
-VALID_DIR = os.path.join(DATA_DIR, 'valid')
+TRAIN_DIR = os.path.join(DATA_DIR, 'train')#7243
+VALID_DIR = os.path.join(DATA_DIR, 'valid')#604
 SIZE = (224, 224)
 BATCH_SIZE = 16
 
